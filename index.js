@@ -16,7 +16,7 @@ slash.on("create", (d) => {
 })
 
 slash.on("command", async (command) => {
-  if (command.name === "activities") {
+  if (command.name === "activity") {
     let channel = client.channels.cache.get(command.options.find(m => m.name === "channel").value);
     if (channel.type !== "voice") return command.callback("Channel must be a voice channel.")
     if (command.options.find(m => m.name === "type").value === "yt") {
@@ -139,7 +139,7 @@ client.on("ready", () => {
   slash.create({
     guildOnly: false,
     data: {
-      name: "activities",
+      name: "activity",
       description: "Play activities with your friends in voice channels.",
       options: [{
           name: "channel",
