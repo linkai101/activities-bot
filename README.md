@@ -8,7 +8,7 @@ Play beta activities with your friends in Discord voice channels!
 
 OR
 
-> Invite your own bot by going to the **OAuth2** page, selecting the `bot` and `application.commands` scopes, applying the appropriate
+> Invite your own bot by going to the **OAuth2** page, selecting the `bot` and `application.commands` scopes, applying the `Create Invite` and `Embed Links` permissions, and clicking the link to invite the bot.
 
 # Deployment
 - Clone this repo
