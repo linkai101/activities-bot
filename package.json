@@ -1,0 +1,18 @@
+{
+  "name": "Activities",
+  "version": "1.0.0",
+  "description": "Play beta activities with your friends in Discord voice channels!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "linkai101",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord-slash-commands": "https://github.com/ShadeDevelopment/discord-slash-commands",
+    "discord.js": "^12.5.3",
+    "node-fetch": "^2.6.1"
+  }
+}
